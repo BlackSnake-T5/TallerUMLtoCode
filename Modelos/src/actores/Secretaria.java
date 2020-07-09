@@ -1,4 +1,4 @@
-package Modelos;
+package actores;
 
 public class Secretaria extends Persona {
 
@@ -14,4 +14,13 @@ public class Secretaria extends Persona {
 		throw new UnsupportedOperationException();
 	}
 
+	public Doctor getSecretaria() {
+		return secretaria;
+	}
+
+	public void setSecretaria(Doctor secretaria) {
+		this.secretaria = secretaria;
+	}
+
+	
 }

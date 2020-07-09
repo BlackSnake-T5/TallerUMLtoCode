@@ -1,4 +1,4 @@
-package Modelos;
+package pagos;
 
 public interface Pago {
 
